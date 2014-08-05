@@ -1,7 +1,6 @@
 body#splash-bg {
 	height: 100%;
 	background-color: black;
-	font-family: 'Dosis', sans-serif;
 }
 
 .splash-outer {
@@ -62,6 +61,12 @@ body#splash-bg {
 	background-color: white;
 	color: black;
 	font-size: 36px;
+}
+
+@media (max-width: 749px) {
+    .splash-intro {
+        font-size: 34px;
+    }
 }
 
 @media (max-width: 550px) {

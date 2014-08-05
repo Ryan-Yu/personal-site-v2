@@ -3,7 +3,7 @@ class PageController < ApplicationController
   def splash
   end
 
-  def index
+  def home
   end
   
 end
