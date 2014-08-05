@@ -28,6 +28,10 @@ body#splash-bg {
     font-size: 40px;
     text-align: left;
     letter-spacing: 0.05em;
+    transition:all 0.8s; 
+    -o-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -webkit-transition:all 0.8s;
 }
 
 
@@ -39,6 +43,10 @@ body#splash-bg {
 	font-size: 28px;
 	padding-left: 100px;
 	text-align: center;
+	transition:all 0.8s; 
+    -o-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -webkit-transition:all 0.8s;
 }
 
 .enter-here a {
@@ -54,4 +62,19 @@ body#splash-bg {
 	background-color: white;
 	color: black;
 	font-size: 36px;
+}
+
+@media (max-width: 550px) {
+	.splash-intro {
+		font-size: 28px;
+	}
+
+	.enter-here {
+		font-size: 22px;
+		padding-left: 75px;
+	}
+
+	.enter-here a:hover {
+		font-size: 28px;
+	}
 }
