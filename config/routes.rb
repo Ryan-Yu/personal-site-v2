@@ -1,7 +1,10 @@
 PersonalWebsite::Application.routes.draw do
 
   root "page#splash"
-  match '/home',    to: 'page#home',    via: 'get'
+  match '/home',          to: 'page#home',          via: 'get'
+  match '/about',         to: 'page#about',         via: 'get'
+  match '/professional',  to: 'page#professional',  via: 'get'
+  match '/contact',       to: 'page#contact',       via: 'get'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

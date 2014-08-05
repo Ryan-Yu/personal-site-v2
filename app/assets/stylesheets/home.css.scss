@@ -1,0 +1,16 @@
+.audio-vectors {
+	text-align: center;
+}
+
+.hd800-png {
+	width: 500px;
+}
+
+@media (max-width: 550px) {
+
+	.hd800-png {
+		width: 270px;
+		margin-top: -25px;
+	}
+	
+}

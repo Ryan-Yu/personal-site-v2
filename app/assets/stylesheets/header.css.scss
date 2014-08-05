@@ -1,6 +1,10 @@
 .high-header {
 	height: 200px;
 	border-bottom: 1px solid #EEEEEE;
+	transition:all 0.8s;
+	-o-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -webkit-transition:all 0.8s;
 }
 
 .header-logo {
@@ -8,3 +12,101 @@
 	padding: 60px 0 0 100px;
 	position: absolute;
 }
+
+#navigation {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 75px;
+	transition:all 0.8s;
+	-o-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -webkit-transition:all 0.8s;
+}
+
+#navigation li {
+	float: right; 
+	transition:all 0.8s;
+	-o-transition:all 0.8s;
+    -moz-transition:all 0.8s;
+    -webkit-transition:all 0.8s;
+}
+
+#navigation li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: 400;
+	color: black;
+	font-size: 20px;
+	padding-right: 100px;
+	letter-spacing: 0.1em;
+}
+
+#navigation li a:after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid #D50000;
+	height: 8px;
+	width: 0;
+	-webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+
+#navigation li a:hover:after { width: 100%; }
+
+@media (max-width: 797px) {
+
+	.high-header {
+		height: 100px;
+	}
+
+	.header-logo {
+		width: 50px;
+		padding: 25px 0 0 50px;
+		position: absolute;
+	}
+
+	#navigation {
+		margin-top: 32px;
+	}
+
+	#navigation li a {
+		padding-right: 50px;
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 550px) {
+
+    .high-header {
+		height: 150px;
+		text-align: center;
+	}
+
+	.header-logo {
+		width: 50px;
+		position: absolute;
+		margin-left: -70px;
+	}
+
+	#navigation {
+		margin-top: 90px;
+	}
+
+	#navigation li {
+		text-align: center;
+		margin-right: -10px;
+	}
+
+	#navigation li a {
+		padding-right: 50px;
+		font-size: 16px;
+	}
+}
+

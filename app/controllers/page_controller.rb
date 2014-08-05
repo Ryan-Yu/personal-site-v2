@@ -5,5 +5,14 @@ class PageController < ApplicationController
 
   def home
   end
+
+  def about
+  end
+
+  def professional
+  end
+
+  def contact
+  end
   
 end
