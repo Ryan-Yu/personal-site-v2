@@ -35,6 +35,10 @@
 	color: #d4d4d4;
     font-size: 9px;
     text-align: center;
+    transition:all 0.7s;
+	-o-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+    -webkit-transition:all 0.7s;
 }
 
 .footer-logo {
@@ -50,4 +54,16 @@
 .footer-logo:hover {
 	opacity: 0.6;
     filter: alpha(opacity = 60); /* For IE */
+}
+
+@media (max-width: 550px) {
+
+	.footer-logo {
+		width: 20px;
+	}
+
+	.footer-nav li a {
+		margin: 0 10px;
+	}
+
 }
