@@ -1,0 +1,27 @@
+.contact-content {
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	line-height: 49px;
+	margin: 50px 100px;
+	text-align: right;
+	transition:all 0.8s ease;
+    -o-transition:all 0.8s ease;
+    -moz-transition:all 0.8s ease;
+    -webkit-transition:all 0.8s ease;
+}
+
+.contact-content .contact-heading {
+	color: #D50000;
+	border-bottom: 2px solid #D50000;
+	height: 8px;
+}
+
+@media(max-width: 747px) {
+
+	.contact-content {
+		font-size: 24px;
+		margin: 30px 50px;
+		line-height: 36px;
+	}
+
+}
