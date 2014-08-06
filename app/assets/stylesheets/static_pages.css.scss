@@ -83,6 +83,43 @@
 	color: #D50000;
 }
 
+.music-content {
+	font-size: 36px;
+	letter-spacing: 0.1em;
+	line-height: 49px;
+	margin: 80px 100px;
+	text-align: right;
+	transition:all 0.8s ease; 
+    -o-transition:all 0.8s ease;
+    -moz-transition:all 0.8s ease;
+    -webkit-transition:all 0.8s ease;
+}
+
+.music-content .music-highlight {
+	color: #D50000;
+	border-bottom: 2px solid #D50000;
+	height: 8px;
+}
+
+.music-content h1 {
+	text-align: left;
+}
+
+.music-content .music-highlight a {
+	text-decoration: none;
+	color: #D50000;
+}
+
+.music-content .music-highlight a:hover {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.music-content .audio-vectors .b22-png {
+	margin-bottom: 25px;
+}
+
 @media (max-width: 747px) {
 
 	.about-content {
@@ -120,5 +157,17 @@
 	.technical-skills {
 		font-size: 20px;
 		color: #D50000;
+	}
+
+	.music-content {
+		font-size: 24px;
+		letter-spacing: 0.1em;
+		line-height: 36px;
+		margin: 40px 50px;
+		text-align: right;
+	}
+
+	.music-content h1 {
+		text-align: center;
 	}
 }
