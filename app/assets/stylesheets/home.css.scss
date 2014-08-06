@@ -3,7 +3,46 @@
 }
 
 .hd800-png {
-	width: 500px;
+	width: 450px;
+	padding: 50px 25px;
+	transition:all 0,2s ease;
+	-o-transition:all 0,2s ease;
+    -moz-transition:all 0,2s ease;
+    -webkit-transition:all 0,2s ease;
+}
+
+.b22-png {
+	width: 450px;
+	padding: 0 25px;
+	margin-bottom: 150px;
+	transition:all 0,2s ease;
+	-o-transition:all 0,2s ease;
+    -moz-transition:all 0,2s ease;
+    -webkit-transition:all 0,2s ease;
+}
+
+.hd800-png:hover {
+	-webkit-filter: opacity(0.5);
+	-webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.b22-png:hover {
+	-webkit-filter: opacity(0.5);
+	-webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+@media (max-width: 949px) {
+	.b22-png {
+		margin-bottom: 75px;
+	}
 }
 
 @media (max-width: 550px) {
@@ -12,5 +51,10 @@
 		width: 270px;
 		margin-top: -25px;
 	}
-	
+
+	.b22-png {
+		width: 270px;
+		margin-bottom: 50px;
+	}
+
 }

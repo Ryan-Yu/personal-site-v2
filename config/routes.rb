@@ -5,6 +5,7 @@ PersonalWebsite::Application.routes.draw do
   match '/about',         to: 'page#about',         via: 'get'
   match '/professional',  to: 'page#professional',  via: 'get'
   match '/contact',       to: 'page#contact',       via: 'get'
+  match '/music',         to: 'page#music',         via: 'get'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

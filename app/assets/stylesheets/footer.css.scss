@@ -45,15 +45,16 @@
 	width: 30px;
 	opacity: 0.15;
     filter: alpha(opacity = 15); /* For IE */
-    transition:all 0.7s;
-	-o-transition:all 0.7s;
-    -moz-transition:all 0.7s;
-    -webkit-transition:all 0.7s;
+    transition:all 0.7s ease;
+	-o-transition:all 0.7s ease;
+    -moz-transition:all 0.7s ease;
+    -webkit-transition:all 0.7s ease;
 }
 
 .footer-logo:hover {
 	opacity: 0.6;
     filter: alpha(opacity = 60); /* For IE */
+    width: 33px;
 }
 
 @media (max-width: 550px) {
@@ -63,7 +64,7 @@
 	}
 
 	.footer-nav li a {
-		margin: 0 10px;
+		margin: 0 6px;
 	}
 
 }

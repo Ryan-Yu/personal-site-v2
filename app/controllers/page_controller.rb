@@ -14,5 +14,8 @@ class PageController < ApplicationController
 
   def contact
   end
+
+  def music
+  end
   
 end
