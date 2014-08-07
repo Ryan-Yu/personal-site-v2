@@ -171,3 +171,15 @@
 		text-align: center;
 	}
 }
+
+@media (max-width: 550px) {
+
+	.music-content .audio-vectors .hd800-png {
+		width: 90%;
+	}
+
+	.music-content .audio-vectors .b22-png {
+		width: 90%;
+	}
+
+}
