@@ -1,0 +1,492 @@
+@charset "UTF-8";/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+.contact-content {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  line-height: 49px;
+  margin: 50px 100px;
+  text-align: right;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.contact-content a {
+  text-decoration: none;
+  color: #D50000; }
+
+.contact-content .contact-heading {
+  color: #D50000;
+  border-bottom: 2px solid #D50000;
+  height: 8px; }
+
+@media (max-width: 747px) {
+  .contact-content {
+    font-size: 24px;
+    margin: 30px 50px;
+    line-height: 36px; } }
+.high-footer {
+  height: 200px;
+  background-color: #FAFAFA;
+  border-top: 1px solid #EEEEEE;
+  transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s; }
+
+.footer-nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 80px;
+  text-align: center; }
+
+.footer-nav li {
+  display: inline-block; }
+
+.footer-nav li a {
+  display: block;
+  width: 40px;
+  text-decoration: none;
+  float: right;
+  margin: 0 20px; }
+
+.copyright-footer {
+  font-family: 'Cousine';
+  color: #d4d4d4;
+  font-size: 9px;
+  text-align: center;
+  transition: all 0.7s;
+  -o-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s; }
+
+.footer-logo {
+  width: 30px;
+  opacity: 0.15;
+  filter: alpha(opacity=15);
+  /* For IE */
+  transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease; }
+
+.footer-logo:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE */
+  width: 33px; }
+
+@media (max-width: 550px) {
+  .footer-logo {
+    width: 20px; }
+
+  .footer-nav li a {
+    margin: 0 6px; } }
+.high-header {
+  height: 200px;
+  border-bottom: 1px solid #EEEEEE;
+  transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s; }
+
+.header-logo {
+  width: 80px;
+  padding: 60px 0 0 100px;
+  position: absolute; }
+
+#navigation {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 75px;
+  transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s; }
+
+#navigation li {
+  float: right;
+  transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s; }
+
+#navigation li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+  padding-right: 100px;
+  letter-spacing: 0.1em; }
+
+#navigation li a:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #D50000;
+  height: 8px;
+  width: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -moz-transition: 0.5s ease; }
+
+#navigation li a:hover:after {
+  width: 100%; }
+
+@media (max-width: 797px) {
+  .high-header {
+    height: 100px; }
+
+  .header-logo {
+    width: 50px;
+    padding: 25px 0 0 50px;
+    position: absolute; }
+
+  #navigation {
+    margin-top: 32px; }
+
+  #navigation li a {
+    padding-right: 50px;
+    font-size: 16px; } }
+@media (max-width: 550px) {
+  .high-header {
+    height: 150px;
+    text-align: center; }
+
+  .header-logo {
+    width: 50px;
+    position: absolute;
+    margin-left: -70px; }
+
+  #navigation {
+    margin-top: 90px; }
+
+  #navigation li {
+    text-align: center;
+    margin-right: -10px; }
+
+  #navigation li a {
+    padding-right: 50px;
+    font-size: 16px; } }
+.audio-vectors {
+  text-align: center; }
+
+.hd800-png {
+  width: 450px;
+  padding: 50px 25px;
+  transition: all 0,2s ease;
+  -o-transition: all 0,2s ease;
+  -moz-transition: all 0,2s ease;
+  -webkit-transition: all 0,2s ease; }
+
+.b22-png {
+  width: 450px;
+  padding: 0 25px;
+  margin-bottom: 150px;
+  transition: all 0,2s ease;
+  -o-transition: all 0,2s ease;
+  -moz-transition: all 0,2s ease;
+  -webkit-transition: all 0,2s ease; }
+
+.hd800-png:hover {
+  -webkit-filter: opacity(0.5);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg); }
+
+.b22-png:hover {
+  -webkit-filter: opacity(0.5);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg); }
+
+@media (max-width: 949px) {
+  .b22-png {
+    margin-bottom: 75px; } }
+@media (max-width: 550px) {
+  .hd800-png {
+    width: 270px;
+    margin-top: -25px; }
+
+  .b22-png {
+    width: 270px;
+    margin-bottom: 50px; } }
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif; }
+
+body#splash-bg {
+  height: 100%;
+  background-color: black; }
+
+.splash-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.splash-container {
+  height: 100%;
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+  color: white;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.splash-intro {
+  vertical-align: middle;
+  height: 100%;
+  display: table-cell;
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -moz-animation: fadein 2s;
+  /* Firefox */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  animation: fadein 2s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+/* Firefox */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+​
+.splash-intro #splash-ryanyu {
+  font-weight: 600; }
+
+.enter-here {
+  font-size: 28px;
+  padding-left: 100px;
+  text-align: center;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.enter-here a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.enter-here a:hover {
+  background-color: white;
+  color: black;
+  font-size: 36px; }
+
+@media (max-width: 749px) {
+  .splash-intro {
+    font-size: 34px; } }
+@media (max-width: 550px) {
+  .splash-intro {
+    font-size: 28px; }
+
+  .enter-here {
+    font-size: 22px;
+    padding-left: 75px; }
+
+  .enter-here a:hover {
+    font-size: 28px; } }
+.about-content {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  line-height: 49px;
+  margin: 80px 100px;
+  text-align: right;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.about-content .about-highlight {
+  color: #D50000;
+  border-bottom: 2px solid #D50000;
+  height: 8px; }
+
+.about-content .about-highlight a {
+  text-decoration: none;
+  color: #D50000; }
+
+.about-content .about-highlight a:hover {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #000; }
+
+.professional-content {
+  margin: 66px 100px;
+  letter-spacing: 0.1em; }
+
+.professional-content h1 {
+  text-align: right;
+  font-weight: 600;
+  font-size: 70px;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.professional-content .professional-entry {
+  margin-bottom: 50px; }
+
+.professional-content .professional-entry a {
+  text-decoration: none;
+  color: #D50000;
+  border-bottom: 2px solid #D50000; }
+
+.professional-content .professional-entry a:hover {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #000; }
+
+.professional-content .professional-entry .professional-entry-text {
+  width: 75%;
+  font-size: 20px;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.professional-content .professional-entry h2 {
+  font-weight: 400;
+  font-size: 30px; }
+
+.professional-content .professional-entry .red {
+  color: #D50000;
+  font-weight: 200;
+  font-size: 40px; }
+
+.technical-skills {
+  font-size: 26px;
+  color: #D50000; }
+
+.music-content {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  line-height: 49px;
+  margin: 80px 100px;
+  text-align: right;
+  transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease; }
+
+.music-content .music-highlight {
+  color: #D50000;
+  border-bottom: 2px solid #D50000;
+  height: 8px; }
+
+.music-content h1 {
+  text-align: left; }
+
+.music-content .music-highlight a {
+  text-decoration: none;
+  color: #D50000; }
+
+.music-content .music-highlight a:hover {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black; }
+
+.music-content .audio-vectors .b22-png {
+  margin-bottom: 25px; }
+
+@media (max-width: 747px) {
+  .about-content {
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    line-height: 42px;
+    margin: 40px 50px;
+    text-align: right; }
+
+  .professional-content {
+    margin: 40px 50px;
+    letter-spacing: 0.1em; }
+
+  .professional-content h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 44px; }
+
+  .professional-content .professional-entry h2 {
+    font-size: 20px; }
+
+  .professional-content .professional-entry .red {
+    font-size: 26px; }
+
+  .professional-content .professional-entry .professional-entry-text {
+    width: 100%;
+    font-size: 16px; }
+
+  .technical-skills {
+    font-size: 20px;
+    color: #D50000; }
+
+  .music-content {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    line-height: 36px;
+    margin: 40px 50px;
+    text-align: right; }
+
+  .music-content h1 {
+    text-align: center; } }
