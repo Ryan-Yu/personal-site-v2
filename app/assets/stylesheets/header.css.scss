@@ -80,16 +80,15 @@
 
 	#navigation li a {
 		padding-right: 50px;
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 }
 
-@media only screen 
-and (max-width : 325px) {
+@media (max-width: 550px) {
 
     .high-header {
-		height: 190px;
+		height: 175px;
 		text-align: center;
 	}
 
@@ -109,6 +108,10 @@ and (max-width : 325px) {
 
 	#navigation li a {
 		padding: 0;
+	}
+
+	#navigation li a:after {
+		border-bottom: none;
 	}
 }
 
