@@ -73,10 +73,11 @@
 
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-        .copyright-footer {
-			padding-bottom: 20px;
-		}
+/* iPhone 5 Retina regardless of IOS version */
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
+   	.copyright-footer {
+		padding-bottom: 20px;
 	}
+}
