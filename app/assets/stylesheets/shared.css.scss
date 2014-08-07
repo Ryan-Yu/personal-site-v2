@@ -3,3 +3,13 @@ body, html {
 	padding: 0;
 	font-family: 'Dosis', sans-serif;
 }
+
+.responsive-break {
+	display: none;
+}
+
+@media(max-width: 500px) {
+	.responsive-break {
+		display: visible;
+	}
+}
