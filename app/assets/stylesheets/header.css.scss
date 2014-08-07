@@ -67,8 +67,7 @@
 
 	.header-logo {
 		width: 50px;
-		padding: 25px 0 0 50px;
-		position: absolute;
+		padding: 25px 0 0 100px;
 	}
 
 	#navigation {
@@ -89,15 +88,14 @@
 @media (max-width: 550px) {
 
     .high-header {
-		height: 150px;
+		height: 190px;
 		text-align: center;
 	}
 
 	.header-logo {
 		width: 50px;
-		position: absolute;
-		margin-left: -70px;
-		// padding: 0;
+		padding: 25px 0 0 0;
+		margin-left: -25px;
 	}
 
 	#navigation {
@@ -105,13 +103,11 @@
 	}
 
 	#navigation li {
-		text-align: center;
-		// margin-right: -10px;
+		float: none;
 	}
 
 	#navigation li a {
-		padding-right: 40px;
-		font-size: 14px;
+		padding: 0;
 	}
 }
 
