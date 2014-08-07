@@ -85,6 +85,12 @@
 
 }
 
+@media (max-width: 650px) {
+	.header-logo {
+		padding: 25px 0 0 60px;
+	}
+}
+
 @media (max-width: 550px) {
 
     .high-header {
