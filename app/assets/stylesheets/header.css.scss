@@ -85,7 +85,8 @@
 
 }
 
-@media (max-width: 550px) {
+@media only screen 
+and (max-width : 325px) {
 
     .high-header {
 		height: 190px;
