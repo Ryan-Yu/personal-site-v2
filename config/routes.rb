@@ -1,6 +1,6 @@
 PersonalWebsite::Application.routes.draw do
 
-  root "page#splash"
+  root "page#home"
   match '/home',          to: 'page#home',          via: 'get'
   match '/about',         to: 'page#about',         via: 'get'
   match '/professional',  to: 'page#professional',  via: 'get'
