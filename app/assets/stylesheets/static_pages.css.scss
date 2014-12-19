@@ -120,6 +120,53 @@
 	margin-bottom: 25px;
 }
 
+.phish-content h2 {
+	
+}
+
+.phish-content {
+	font-size: 20px;
+	width: 75%;
+	letter-spacing: 0.1em;
+	line-height: 35px;
+	margin: 120px 120px;
+	text-align: left;
+	transition:all 0.8s ease; 
+    -o-transition:all 0.8s ease;
+    -moz-transition:all 0.8s ease;
+    -webkit-transition:all 0.8s ease;
+}
+
+.phish-content .phish-highlight {
+	color: #D50000;
+	border-bottom: 2px solid #D50000;
+}
+
+.phish-pictures {
+	text-align: center;
+}
+
+.top-phish-picture {
+	margin-top: -70px;
+}
+
+.phish-picture {
+	border: 12px solid white;
+	-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 35px;
+}
+
+.phish-picture-small {
+	width: 50%;
+	height: auto;
+}
+
+.video-wrapper {
+	text-align: center;
+}
+
 @media (max-width: 747px) {
 
 	.about-content {
