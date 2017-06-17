@@ -17,5 +17,8 @@ class PageController < ApplicationController
 
   def music
   end
+
+  def homealt
+  end
   
 end

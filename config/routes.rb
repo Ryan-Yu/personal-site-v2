@@ -5,6 +5,7 @@ PersonalWebsite::Application.routes.draw do
   match '/about',         to: 'page#about',         via: 'get'
   match '/professional',  to: 'page#professional',  via: 'get'
   match '/contact',       to: 'page#contact',       via: 'get'
+  match '/homealt',       to: 'page#homealt',       via: 'get'
   match '/music',         to: 'page#music',         via: 'get'
   match '/music/phish',   to: 'page#phish',         via: 'get'
   
